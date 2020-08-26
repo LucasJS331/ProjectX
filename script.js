@@ -1,0 +1,1 @@
+alert("Pagina designada para projeto do grupo Duty :)");
