@@ -1,36 +1,65 @@
-hr{
-    border: 1px solid darkred;
+hr {
+    border: 1px solid darkslateblue;
 }
 
-h1{
-    color: darkred;
-
+span {
+    display: flex;
+    margin-bottom: 8px;
 }
 
-p{
-    color: deepskyblue;
+a {
+    text-decoration: none;
 }
 
-body{
-    background-color: floralwhite;
-    margin-left: 20px;
-    margin-right: 20px;
+a:hover {
+    color: darkturquoise;
+    font-size: xx-large;
+}
+
+h1 {
+    color: darkslateblue;
+    padding-left: 8px;
+}
+
+h2 {
+    color: gray;
+    padding-left: 14px;
+}
+
+span {
+    padding-left: 22px;
+}
+
+fieldset {
+    max-width: 100%;
+}
+textarea {
+    margin-left: 22px;
+    width: 94%;
+    margin-bottom: 8px;
+}
+input[type="email"],
+select {
+    width: 50%;
+    margin-left: 22px;
+}
+button {
+    border-radius: 15%;
+    background-color: darkcyan;
+    color: white;
+    margin-left: 22px;
+    font-weight: bold;
+    width: 75px;
+    height: 50;
+}
+button:hover {
+    color: black;
+    background-color: cornsilk;
+}
+
+body {
+    margin-left: 20%;
+    margin-right: 20%;
     border: 1px solid gray;
-    padding: 10px 10px 10px 10px;
-}
-
-a:link{
-    color: red;
-
-}
-
-a:visited{
-    color: green;
-    text-decoration: none ;
-
-}
-
-a:hover{
-    color: hotpink;
-    
-}
+    padding: 10px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;}
