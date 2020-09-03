@@ -1,0 +1,36 @@
+hr{
+    border: 1px solid darkred;
+}
+
+h1{
+    color: darkred;
+
+}
+
+p{
+    color: deepskyblue;
+}
+
+body{
+    background-color: floralwhite;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    padding: 10px 10px 10px 10px;
+}
+
+a:link{
+    color: red;
+
+}
+
+a:visited{
+    color: green;
+    text-decoration: none ;
+
+}
+
+a:hover{
+    color: hotpink;
+    
+}
